@@ -1,5 +1,5 @@
 ## Datamining Predik Sakit Hati
-Classifier webapp dibangun dengan menggunakan Streamlit (Python-framework). Tujuannya untuk mengkategorikan Diabetes atau Tidak berdasarkan parameter inputan. Algoritma yang digunakan adalah SVM. App ini juga dapat mengenerate visualized report dengan data pasien.
+Classifier webapp dibangun dengan menggunakan Streamlit (Python-framework). Tujuannya untuk mengkategorikan Diabetes atau Tidak berdasarkan parameter inputan. Algoritma yang digunakan adalah KNN. App ini juga dapat mengenerate visualized report dengan data pasien.
 ## Technologies Used:
 ## For Development
 - Python3 (Programming Language)
