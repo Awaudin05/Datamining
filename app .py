@@ -18,12 +18,12 @@ knn = pickle.load(open('KNN.pkl','rb'))
 data = pd.read_csv('/content/drive/MyDrive/DataMining/Heart Dataset.csv')
 #data = data.drop(data.columns[0],axis=1)
 
-st.title('Aplikasi Heart')
+st.title('Aplikasi Jantung')
 
 html_layout1 = """
 <br>
 <div style="background-color:red ; padding:2px">
-<h2 style="color:white;text-align:center;font-size:35px"><b>Heart Cekup</b></h2>
+<h2 style="color:white;text-align:center;font-size:35px"><b>Jantung Cekup</b></h2>
 </div>
 <br>
 <br>
@@ -121,7 +121,7 @@ output=''
 if user_result[0]==0:
     output='Kamu Aman'
 else:
-    output ='Kamu sakit hati'
+    output ='Kamu sakit Jantung'
 st.title(output)
 st.subheader('Model yang digunakan : \n'+option)
 st.subheader('Accuracy : ')
