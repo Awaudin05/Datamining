@@ -1,4 +1,4 @@
-## Datamining Predik Sakit Hati
+## Datamining Predik Sakit Jantung
 Classifier webapp dibangun dengan menggunakan Streamlit (Python-framework). Tujuannya untuk mengkategorikan Diabetes atau Tidak berdasarkan parameter inputan. Algoritma yang digunakan adalah KNN. App ini juga dapat mengenerate visualized report dengan data pasien.
 ## Technologies Used:
 ## For Development
